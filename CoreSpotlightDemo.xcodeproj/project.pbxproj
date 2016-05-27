@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584EE49E1CEDA7A60096519D /* MovieDetailPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 584EE49D1CEDA7A60096519D /* MovieDetailPage.m */; };
 		58B7ABF81CED4D3500137227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7ABF71CED4D3500137227 /* main.m */; };
 		58B7ABFB1CED4D3500137227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7ABFA1CED4D3500137227 /* AppDelegate.m */; };
-		58B7ABFE1CED4D3500137227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7ABFD1CED4D3500137227 /* ViewController.m */; };
+		58B7ABFE1CED4D3500137227 /* MovieTablePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7ABFD1CED4D3500137227 /* MovieTablePage.m */; };
 		58B7AC011CED4D3500137227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B7ABFF1CED4D3500137227 /* Main.storyboard */; };
 		58B7AC031CED4D3500137227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC021CED4D3500137227 /* Assets.xcassets */; };
 		58B7AC061CED4D3500137227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC041CED4D3500137227 /* LaunchScreen.storyboard */; };
 		58B7AC111CED4D3500137227 /* CoreSpotlightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AC101CED4D3500137227 /* CoreSpotlightDemoTests.m */; };
 		58B7AC1C1CED4D3500137227 /* CoreSpotlightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AC1B1CED4D3500137227 /* CoreSpotlightDemoUITests.m */; };
+		58B7AC2D1CED558400137227 /* MovieContentsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC2C1CED558400137227 /* MovieContentsList.plist */; };
+		58B7AC351CED5D5600137227 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC2F1CED5D5600137227 /* 1.jpg */; };
+		58B7AC361CED5D5600137227 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC301CED5D5600137227 /* 2.jpg */; };
+		58B7AC371CED5D5600137227 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC311CED5D5600137227 /* 3.jpg */; };
+		58B7AC381CED5D5600137227 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC321CED5D5600137227 /* 4.jpg */; };
+		58B7AC391CED5D5600137227 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC331CED5D5600137227 /* 5.jpg */; };
+		58B7AC3A1CED5D5600137227 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC341CED5D5600137227 /* 6.jpg */; };
+		58B7AC3C1CED629800137227 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B7AC3B1CED629800137227 /* MovieCell.xib */; };
+		58B7AC421CED889A00137227 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B7AC411CED889A00137227 /* CoreSpotlight.framework */; };
+		58B7AC441CED88B400137227 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B7AC431CED88B400137227 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		584EE49C1CEDA7A60096519D /* MovieDetailPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailPage.h; sourceTree = "<group>"; };
+		584EE49D1CEDA7A60096519D /* MovieDetailPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailPage.m; sourceTree = "<group>"; };
 		58B7ABF31CED4D3500137227 /* CoreSpotlightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreSpotlightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B7ABF71CED4D3500137227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58B7ABF91CED4D3500137227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58B7ABFA1CED4D3500137227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58B7ABFC1CED4D3500137227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58B7ABFD1CED4D3500137227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58B7ABFC1CED4D3500137227 /* MovieTablePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTablePage.h; sourceTree = "<group>"; };
+		58B7ABFD1CED4D3500137227 /* MovieTablePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTablePage.m; sourceTree = "<group>"; };
 		58B7AC001CED4D3500137227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58B7AC021CED4D3500137227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B7AC051CED4D3500137227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,16 @@
 		58B7AC171CED4D3500137227 /* CoreSpotlightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSpotlightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B7AC1B1CED4D3500137227 /* CoreSpotlightDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreSpotlightDemoUITests.m; sourceTree = "<group>"; };
 		58B7AC1D1CED4D3500137227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B7AC2C1CED558400137227 /* MovieContentsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MovieContentsList.plist; sourceTree = "<group>"; };
+		58B7AC2F1CED5D5600137227 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		58B7AC301CED5D5600137227 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		58B7AC311CED5D5600137227 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		58B7AC321CED5D5600137227 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		58B7AC331CED5D5600137227 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		58B7AC341CED5D5600137227 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		58B7AC3B1CED629800137227 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		58B7AC411CED889A00137227 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		58B7AC431CED88B400137227 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B7AC441CED88B400137227 /* MobileCoreServices.framework in Frameworks */,
+				58B7AC421CED889A00137227 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 		58B7ABEA1CED4D3500137227 = {
 			isa = PBXGroup;
 			children = (
+				58B7AC431CED88B400137227 /* MobileCoreServices.framework */,
+				58B7AC411CED889A00137227 /* CoreSpotlight.framework */,
 				58B7ABF51CED4D3500137227 /* CoreSpotlightDemo */,
 				58B7AC0F1CED4D3500137227 /* CoreSpotlightDemoTests */,
 				58B7AC1A1CED4D3500137227 /* CoreSpotlightDemoUITests */,
@@ -101,11 +128,16 @@
 		58B7ABF51CED4D3500137227 /* CoreSpotlightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58B7AC2E1CED5D2B00137227 /* MovieImage */,
 				58B7ABF91CED4D3500137227 /* AppDelegate.h */,
 				58B7ABFA1CED4D3500137227 /* AppDelegate.m */,
-				58B7ABFC1CED4D3500137227 /* ViewController.h */,
-				58B7ABFD1CED4D3500137227 /* ViewController.m */,
+				58B7ABFC1CED4D3500137227 /* MovieTablePage.h */,
+				58B7ABFD1CED4D3500137227 /* MovieTablePage.m */,
+				584EE49C1CEDA7A60096519D /* MovieDetailPage.h */,
+				584EE49D1CEDA7A60096519D /* MovieDetailPage.m */,
+				58B7AC3B1CED629800137227 /* MovieCell.xib */,
 				58B7ABFF1CED4D3500137227 /* Main.storyboard */,
+				58B7AC2C1CED558400137227 /* MovieContentsList.plist */,
 				58B7AC021CED4D3500137227 /* Assets.xcassets */,
 				58B7AC041CED4D3500137227 /* LaunchScreen.storyboard */,
 				58B7AC071CED4D3500137227 /* Info.plist */,
@@ -138,6 +170,19 @@
 				58B7AC1D1CED4D3500137227 /* Info.plist */,
 			);
 			path = CoreSpotlightDemoUITests;
+			sourceTree = "<group>";
+		};
+		58B7AC2E1CED5D2B00137227 /* MovieImage */ = {
+			isa = PBXGroup;
+			children = (
+				58B7AC2F1CED5D5600137227 /* 1.jpg */,
+				58B7AC301CED5D5600137227 /* 2.jpg */,
+				58B7AC311CED5D5600137227 /* 3.jpg */,
+				58B7AC321CED5D5600137227 /* 4.jpg */,
+				58B7AC331CED5D5600137227 /* 5.jpg */,
+				58B7AC341CED5D5600137227 /* 6.jpg */,
+			);
+			name = MovieImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +252,7 @@
 				TargetAttributes = {
 					58B7ABF21CED4D3500137227 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 535B2C4Z22;
 					};
 					58B7AC0B1CED4D3500137227 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +289,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B7AC381CED5D5600137227 /* 4.jpg in Resources */,
+				58B7AC361CED5D5600137227 /* 2.jpg in Resources */,
 				58B7AC061CED4D3500137227 /* LaunchScreen.storyboard in Resources */,
+				58B7AC391CED5D5600137227 /* 5.jpg in Resources */,
+				58B7AC3A1CED5D5600137227 /* 6.jpg in Resources */,
 				58B7AC031CED4D3500137227 /* Assets.xcassets in Resources */,
 				58B7AC011CED4D3500137227 /* Main.storyboard in Resources */,
+				58B7AC2D1CED558400137227 /* MovieContentsList.plist in Resources */,
+				58B7AC371CED5D5600137227 /* 3.jpg in Resources */,
+				58B7AC3C1CED629800137227 /* MovieCell.xib in Resources */,
+				58B7AC351CED5D5600137227 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B7ABFE1CED4D3500137227 /* ViewController.m in Sources */,
+				584EE49E1CEDA7A60096519D /* MovieDetailPage.m in Sources */,
+				58B7ABFE1CED4D3500137227 /* MovieTablePage.m in Sources */,
 				58B7ABFB1CED4D3500137227 /* AppDelegate.m in Sources */,
 				58B7ABF81CED4D3500137227 /* main.m in Sources */,
 			);
@@ -415,10 +470,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoreSpotlightDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zen3.CoreSpotlightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoreSpotlightDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zen3.CoreSpotlightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +559,7 @@
 				58B7AC221CED4D3500137227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58B7AC231CED4D3600137227 /* Build configuration list for PBXNativeTarget "CoreSpotlightDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +568,7 @@
 				58B7AC251CED4D3600137227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58B7AC261CED4D3600137227 /* Build configuration list for PBXNativeTarget "CoreSpotlightDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +577,7 @@
 				58B7AC281CED4D3600137227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,8 +2,8 @@
 //  CoreSpotlightDemoTests.m
 //  CoreSpotlightDemoTests
 //
-//  Created by ajbc1824 on 16/5/19.
-//  Copyright © 2016年 ajbc1824. All rights reserved.
+//  Created by Zen3 on 16/5/19.
+//  Copyright © 2016年 Zen3. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

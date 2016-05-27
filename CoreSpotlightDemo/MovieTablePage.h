@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  CoreSpotlightDemo
 //
 //  Created by Zen3 on 16/5/19.
@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "MovieDetailPage.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+#import <CoreSpotlight/CoreSpotlight.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+
+@interface MovieTablePage : UIViewController
 
 
 @end
